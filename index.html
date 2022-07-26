@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penguin fashion</title>
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/1b551efcfa.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
+      src="https://kit.fontawesome.com/1b551efcfa.js"
+      crossorigin="anonymous"
+    ></script> -->
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Customize -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              headingTextColor: "#fabe4c",
+              headerBg: "#FFFBF0",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- Header section begins -->
+    <header class="bg-headerBg px-3">
+      <div
+        class="header-wrapper container md:px-28 mx-auto lg:px-28 mb-12 py-10 rounded-lg"
+      >
+        <!-- Navbar area begins -->
+        <div
+          class="grid md:grid-cols-1 lg:grid-cols-2 items-center my-2 justify-between"
+        >
+          <div class="logo">
+            <img class="w-42 h-11" src="images/logo.png" alt="Logo" />
+          </div>
+          <div class="links">
+            <a href="#" class="px-5 font-bold text-gray-600">Home</a>
+            <a href="#" class="px-5 font-bold text-gray-600">Product</a>
+            <a href="#" class="px-5 font-bold text-gray-600">About us</a>
+            <a href="#" class="px-5 font-bold text-gray-600">Contact us</a>
+          </div>
+        </div>
+        <!-- Navbar area begins -->
+
+        <!-- Hero area begins -->
+        <div
+          class="hero-area grid md:grid-cols-1 md:px-1 lg:grid-cols-2 justify-between items-center mt-4"
+        >
+          <div class="text-area">
+            <h2 class="text-5xl font-extrabold uppercase mb-6">
+              <span class="text-headingTextColor">Be the Penguins </span><br />
+              of Winner
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur <br />adipisicing elit.
+              Voluptatibus, esse?
+            </p>
+            <button
+              class="bg-lime-600 py-4 px-10 font-semibold uppercase text-white mt-6 rounded-lg"
+            >
+              <i class="fa fa-cart-plus"></i>
+              Buy now
+            </button>
+          </div>
+          <div class="hero-picture">
+            <img src="images/model.png" alt="Model picture" />
+          </div>
+        </div>
+        <!-- /Hero area ends -->
+      </div>
+    </header>
+    <!-- /Header section ends -->
+
+    <!-- Main area begins -->
+    <main class="container mx-auto md:px-4 lg:px-28 my-12">
+      <!-- Woman jacket begins -->
+      <h2 class="text-3xl font-extrabold uppercase mt-8">Women Jacket</h2>
+      <section
+        class="grid md:grid-cols-2 md:px-1 lg:grid-cols-3 gap-7 justify-between mb-24"
+      >
+        <div class="jacket-wrapper p-4 shadow-lg rounded-xl">
+          <div class="image bg-slate-100 p-5 rounded-xl">
+            <img src="images/jacket-1.png" alt="" />
+          </div>
+          <div class="description">
+            <div class="">
+              <h2 class="text-lg font-bold">Yellow coat jacket</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit Ut ex
+                accusamus ullam voluptatibus eaque nulla dolore!
+              </p>
+            </div>
+            <div class="flex justify-between items-center mt-5">
+              <div class="text-yellow-500 text- font-extrabold text-3xl">
+                $253
+              </div>
+              <div>
+                <button
+                  class="bg-lime-600 py-4 px-10 font-semibold uppercase text-white rounded-lg"
+                >
+                  <i class="fa fa-cart-plus"></i>
+                  Buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="jacket-wrapper p-4 shadow-lg rounded-xl">
+          <div class="image bg-slate-100 p-5 rounded-xl">
+            <img src="images/jacket-2.png" alt="" />
+          </div>
+          <div class="description">
+            <div class="">
+              <h2 class="text-lg font-bold">Ladies jacket</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit Ut ex
+                accusamus ullam voluptatibus eaque nulla dolore!
+              </p>
+            </div>
+            <div class="flex justify-between items-center mt-5">
+              <div class="text-yellow-500 text- font-extrabold text-3xl">
+                $253
+              </div>
+              <div>
+                <button
+                  class="bg-lime-600 py-4 px-10 font-semibold uppercase text-white rounded-lg"
+                >
+                  <i class="fa fa-cart-plus"></i>
+                  Buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="jacket-wrapper p-4 shadow-lg rounded-xl">
+          <div class="image bg-slate-100 p-5 rounded-xl">
+            <img src="images/jacket-3.png" alt="" />
+          </div>
+          <div class="description">
+            <div class="">
+              <h2 class="text-lg font-bold">Women leather jacket</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit Ut ex
+                accusamus ullam voluptatibus eaque nulla dolore!
+              </p>
+            </div>
+            <div class="flex justify-between items-center mt-5">
+              <div class="text-yellow-500 text- font-extrabold text-3xl">
+                $253
+              </div>
+              <div>
+                <button
+                  class="bg-lime-600 py-4 px-10 font-semibold uppercase text-white rounded-lg"
+                >
+                  <i class="fa fa-cart-plus"></i>
+                  Buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- /Woman jacket ends -->
+
+      <!-- Man jacket begins -->
+      <h2 class="text-3xl font-extrabold uppercase mt-8">Man Jacket</h2>
+      <section
+        class="grid md:grid-cols-2 md:px-1 lg:grid-cols-3 gap-7 justify-between mb-24"
+      >
+        <div class="jacket-wrapper p-4 shadow-lg rounded-xl">
+          <div class="image bg-slate-100 p-5 rounded-xl">
+            <img src="images/jacket-4.png" alt="" />
+          </div>
+          <div class="description">
+            <div class="">
+              <h2 class="text-lg font-bold">Snowboard Jacket Mens</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit Ut ex
+                accusamus ullam voluptatibus eaque nulla dolore!
+              </p>
+            </div>
+            <div class="flex justify-between items-center mt-5">
+              <div class="text-yellow-500 text- font-extrabold text-3xl">
+                $253
+              </div>
+              <div>
+                <button
+                  class="bg-lime-600 py-4 px-10 font-semibold uppercase text-white rounded-lg"
+                >
+                  <i class="fa fa-cart-plus"></i>
+                  Buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="jacket-wrapper p-4 shadow-lg rounded-xl">
+          <div class="image bg-slate-100 p-5 rounded-xl">
+            <img src="images/jacket-5.png" alt="" />
+          </div>
+          <div class="description">
+            <div class="">
+              <h2 class="text-lg font-bold">Man Leather Jackets</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit Ut ex
+                accusamus ullam voluptatibus eaque nulla dolore!
+              </p>
+            </div>
+            <div class="flex justify-between items-center mt-5">
+              <div class="text-yellow-500 text- font-extrabold text-3xl">
+                $253
+              </div>
+              <div>
+                <button
+                  class="bg-lime-600 py-4 px-10 font-semibold uppercase text-white rounded-lg"
+                >
+                  <i class="fa fa-cart-plus"></i>
+                  Buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="jacket-wrapper p-4 shadow-lg rounded-xl">
+          <div class="image bg-slate-100 p-5 rounded-xl">
+            <img src="images/jacket-6.png" alt="" />
+          </div>
+          <div class="description">
+            <div class="">
+              <h2 class="text-lg font-bold">Man Casual Jackets</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit Ut ex
+                accusamus ullam voluptatibus eaque nulla dolore!
+              </p>
+            </div>
+            <div class="flex justify-between items-center mt-5">
+              <div class="text-yellow-500 text- font-extrabold text-3xl">
+                $253
+              </div>
+              <div>
+                <button
+                  class="bg-lime-600 py-4 px-10 font-semibold uppercase text-white rounded-lg"
+                >
+                  <i class="fa fa-cart-plus"></i>
+                  Buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Man jacket ends-->
+
+      <!-- Our benefits begins -->
+      <section>
+        <div
+          class="grid md:grid-cols-1 md:px-1 lg:grid-cols-2 items-center gap-7 mb-24"
+        >
+          <div class="h-32 flex gap-6 items-center p-5 rounded-xl shadow-lg">
+            <div class="">
+              <img class="w-20 h-20" src="images/house.png" alt="" />
+            </div>
+            <div class="">
+              <h3 class="text-2xl font-bold">Find the Perfect Fit</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Nesciunt, enim?
+              </p>
+            </div>
+          </div>
+          <div class="row-span-3 rounded-xl">
+            <img src="images/shopping.png" alt="" />
+          </div>
+          <div class="h-32 rounded-xl shadow-lg flex gap-6 items-center p-5">
+            <div class="">
+              <img class="w-20 h-20" src="images/box.png" alt="" />
+            </div>
+            <div class="">
+              <h3 class="text-2xl font-bold">Free Exchanges</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Nesciunt, enim?
+              </p>
+            </div>
+          </div>
+          <div class="h-32 rounded-xl shadow-lg flex gap-6 items-center p-5">
+            <div class="">
+              <img class="w-20 h-20" src="images/question.png" alt="" />
+            </div>
+            <div class="">
+              <h3 class="text-2xl font-bold">Contact Our Seller</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Nesciunt, enim?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Our benefits ends -->
+    </main>
+    <!--/ Main area ends -->
+
+    <!-- Footer area begins -->
+    <footer class="footer bg-slate-800 py-6 text-center text-white">
+      <span> &copy; 2022 All rights reserved to Coders Group</span>
+    </footer>
+    <!-- /Footer area ends -->
+  </body>
+</html>
